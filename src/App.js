@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Topbar from './topbar';
+import VidGallery from './vidgallery';
+import Table from './Table';
+import AboutMe from './AboutMe';
+import Foote from './Foote';
 function App() {
   return (
     <div className="App">
+      <Topbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        
+        <h1>Applied Experience</h1>
+        <VidGallery />
+        <div className='scrol'>
+          <AboutMe />
+        </div>
+        </header>
+        <div className="App-header">
+        <h1>Skill Set Table</h1>
+        <Table />
+        </div>
+        <footer className='socials'>
+          <Foote />
+        </footer>
+        
+      
     </div>
   );
 }
