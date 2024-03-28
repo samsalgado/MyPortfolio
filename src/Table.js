@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './App.css';
+import 'tailwindcss/tailwind.css';
 const Table = () => {
     const [stats] = useState([
         {
@@ -15,9 +15,9 @@ const Table = () => {
   return (
     <div>
         {stats.map(stats => (
-            <table className='container' key={stats.id}>
+            <table class='container' key={stats.id}>
                 <thead>
-                    <tr className='titles'>
+                    <tr class='titles'>
                         <th>Languages</th>
                         <th>Years of Experience</th>
                         <th>Projects</th>
@@ -27,7 +27,7 @@ const Table = () => {
                         <th>Fields</th>
                     </tr>
                 </thead>
-                <tbody className='me-row'>
+                <tbody class='me-row'>
                     <td>{stats.languages}</td>
                     <td>{stats.experience}</td>
                     <td>{stats.projects}</td>

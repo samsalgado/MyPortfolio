@@ -1,4 +1,4 @@
-import './App.css';
+import "tailwindcss/tailwind.css";
 import Topbar from './topbar';
 import VidGallery from './vidgallery';
 import Table from './Table';
@@ -6,24 +6,24 @@ import AboutMe from './AboutMe';
 import Foote from './Foote';
 function App() {
   return (
-    <div className="App">
+    <div class="App">
       <Topbar />
-      <header className="App-header">
+      <header class="App-header">
         
-        <h1>Applied Experience</h1>
+        <h1 class='text-4x1 font-bold text-white'> Applied Experience</h1>
         <VidGallery />
-        <div className='scrol'>
+        <div class='scrol'>
           <AboutMe />
         </div>
         </header>
-        <div className="App-header">
-        <h1>Skill Set Table</h1>
+        <div class="App-header">
+        <h1 class="text-4x1 font-bold text-white">Skill Set Table</h1>
         <Table />
         </div>
-        <footer className='socials'>
+        <footer class='socials'>
           <Foote />
         </footer>
-        
+
       
     </div>
   );

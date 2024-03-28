@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css';
+import 'tailwindcss/tailwind.css';
 import x from './x.webp'
 import youtube from './youtube.png';
 import lnk from './lnk.png';
@@ -20,8 +20,8 @@ const Foote = () => {
     }
    return (
     <>
-        <div className='lefty'>
-            <h2 className='start'>Links</h2>
+        <div class='lefty'>
+            <h2 class='start'>Links</h2>
             <Button onClick={handleButton}>Porfolio Project</Button>
 
             <Button onClick={handleProject}>Teaching Technology Homepage</Button>
