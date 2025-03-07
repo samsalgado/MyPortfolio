@@ -18,6 +18,9 @@ const Foote = () => {
     const handleApps = () => {
         window.location.href = 'https://samsalgado.github.io/appideas/'
     }
+    const merlingroup = () => {
+        window.location.href = 'https://themerlingroupworld.com/'
+    }
    return (
     <>
         <div class='lefty'>
@@ -27,6 +30,7 @@ const Foote = () => {
             <Button onClick={handleProject}>Teaching Technology Homepage</Button>
             <Button onClick={handleResume}>Resume</Button>
             <Button onClick={handleApps}>App Ideas</Button>
+            <Button onClick={merlingroup}>Merlin Group</Button>
         </div>
         <h2>Socials</h2>
         <a href='https://twitter.com/ttf123457'>
@@ -38,7 +42,7 @@ const Foote = () => {
         <a href='https://www.youtube.com/@teachingtechnologyy'>
             <img src={youtube} alt='' width={100} height={100}  />
         </a>
-        <a href='https://www.linkedin.com/in/blockchainmerlin'>
+        <a href='https://www.linkedin.com/in/samuel-salgado-340167322/'>
             <img src={lnk} alt='' width={100} height={100} />
         </a>     
     </>

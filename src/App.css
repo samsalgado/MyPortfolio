@@ -1,9 +1,12 @@
 .App {
   text-align: center;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 .App-logo {
-  height: 40vmin;
+  height: 40%;
   pointer-events: none;
 }
 .scroll {
@@ -20,9 +23,7 @@
   height: fit-content;
 }
 p {
-  height: auto;
-  padding: 0px 100px 0px 100px;
-  font-size: large;
+  font-size: 1.2rem;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -31,11 +32,11 @@ p {
 }
 .me-row td {
   border: 1px solid #cccccccc;
-  width: 25vh;
+  width: 25%;
 }
 .me-row {
   border: 1px solid #cccccccc;
-  width: 25vh;
+  width: 25%;
 }
 .me-table {
   color: #61dafb;
@@ -44,7 +45,7 @@ p {
   position: inherit;
   width: 100%;
   flex-direction: row;
-  height: 10vmin;
+  height: 10%;
 }
 .container {
   color: #cccccccc;
@@ -55,7 +56,7 @@ p {
 }
 .titles th {
   border: 1px solid #cccccccc;
-  width: 25vh;
+  width: auto;
 }
 .center {
   align-items: center;
@@ -74,7 +75,7 @@ p {
 .logo {
   height: 13vmin;
   width:fit-content;
-  position: absolute;
+  position: relative;
   top: 2px;
   left: 1px;
   flex-direction: row;
@@ -85,7 +86,7 @@ p {
   justify-content: center;
 }
 .right {
-  position: absolute;
+  position: relative;
   margin: 0;
   top:0;
   right: 0;
@@ -115,5 +116,55 @@ p {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 768px) {
+  /* Media query for smaller screens */
+  p {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 768px) {
+  /* Styles for tablets */
+  .content-section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for smartphones */
+  .content-section {
+    width: 95%;
+  }
+}
+/* Add more media queries for different screen sizes */
+@media (max-width: 480px) {
+  /* Styles for small screens */
+}
+.title {
+  font-family: 'sans-serif';
+}
+@media (max-width: 768px) {
+  /* Styles for tablets and mobiles */
+  .table {
+    width: 100%; /* Ensure table fills the width on mobile */
+  }
+  .mobile-hide {
+    display: none; /* Hide specific columns on mobile */
+  }
+  .me-row td {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  /* Styles for tablets and mobiles */
+  .video-gallery {
+    display: grid; /* Example grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+  }
+  .Iframe {
+    height: 180px; /* Adjust height for mobile */
   }
 }
