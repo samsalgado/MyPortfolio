@@ -1,5 +1,4 @@
-import React from 'react'
-import Me from './logo.jpeg'
+import React from 'react';
 import 'tailwindcss/tailwind.css';
 import ContactButton from './Contact';
 const Topbar = () => {
