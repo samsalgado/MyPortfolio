@@ -4,9 +4,9 @@ const Table = () => {
       {
         languages: 'JavaScript, C++, Golang, SQL, R, Python, Solidity',
         experience: 5,
-        projects: 'React Native: Assisting Entrepreneurs, Python: NFL Python Bot, Solidity: PersonNFT, SCP, Golang: Medical Database Contract [HyperLedger]',
-        marketing: 'Yoast, Ahrefs, Google Analytics, Google Search Console, Google Tag Manager, WordPress SEO, Moz, YouTube Marketing, Content Creation',
-        other_skills: 'Data-Driven SEO, Prompt Engineering, CMS Management, Power BI, Tableau, Drupal, AWS, Marketing Strategy, Supply Chain Sales, Problem-Solving, Instructional Design, Customer Service, Consulting, Data Analytics',
+        projects: 'React Native: Assisting Entrepreneurs, DECENTMED, customcanvasstructures.com, Python: NFL Python Bot, Solidity: PersonNFT, SCP, Golang: Medical Database Contract [HyperLedger]',
+        marketing: 'Yoast, Ahrefs, Google Analytics, Google Search Console, Google Tag Manager, VidIQ, WordPress SEO, Moz, Social Media Marketing, Content Creation',
+        other_skills: 'Data-Driven SEO, AI Integration, Web Design, Responsive Web Design, Prompt Engineering, CMS Management, Power BI, Tableau, Drupal, AWS, Marketing Strategy, Supply Chain Sales, Problem-Solving, Instructional Design, Blockchain, Customer Service, Consulting, Data Analytics',
         certificates: 'R, Google Adwords,  Solidity, Power BI, JavaScript, Python, Hadoop, Big Data',
         Fields: 'E-commerce, NFT, Supply Chain, Wellness, Blockchain, Cybersecurity'
       }
