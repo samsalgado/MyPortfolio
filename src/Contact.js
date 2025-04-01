@@ -10,7 +10,7 @@ const ContactButton = () => {
   };
 
   return (
-    <Button onClick={handleClick}>
+    <Button  onClick={handleClick}>
       Contact Me
     </Button>
   );

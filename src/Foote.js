@@ -10,10 +10,10 @@ const Foote = () => {
         window.location.href = 'https://samsalgado.github.io/SCP/'
     }
     const handleProject = () => {
-        window.location.href = 'https://teaching-technology.netlify.app/'
+        window.location.href = 'https://www.youtube.com/playlist?list=PLEbzOui8nuI7UvhPJBzgSh4YDofIuvIca'
     }
     const handleResume = () => {
-        window.location.href = 'https://docs.google.com/document/d/1QV3Gdp7SA4RSjFpM75v-lLXqWo7Kgrxy/edit?usp=sharing&ouid=109384567562105595029&rtpof=true&sd=true'
+        window.location.href = 'https://docs.google.com/document/d/1Y8KIQqszuHf_FLwWXdIY9On3hDkMgqrw1oWZ1CBaoFk/edit?usp=sharing'
     }
     const handleApps = () => {
         window.location.href = 'https://samsalgado.github.io/appideas/'

@@ -1,45 +1,38 @@
-.App {
-  text-align: center;
+.container-bblue {
+  background-color: #001f3d; /* Example background color for the blue section */
+  padding: 30px;
 }
-img {
-  max-width: 100%;
-  height: auto;
+
+.edu {
+  font-size: 14px;
+  color: #666; /* Text color for the descriptions */
 }
-.App-logo {
-  height: 40%;
-  pointer-events: none;
+
+.marketing-section {
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+  height: 400px; /* Height for the section with the background image */
+  padding: 50px 0; /* Adds padding for spacing */
+  display: flex; /* Flexbox for centering the content */
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  text-align: center; /* Centers the text */
 }
-.scroll {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
-  margin-bottom: 10%;
+
+.card-body {
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a slight dark overlay for text contrast */
+  padding: 30px;
+  border-radius: 10px;
 }
-.scrol {
-  background-color: red;
-  padding: 10px;
-  width:fit-content;
-  height: fit-content;
+
+h3 {
+  font-size: 24px;
+  color: white; /* Makes the title stand out */
 }
+
 p {
-  font-size: 1.2rem;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-.me-row td {
-  border: 1px solid #cccccccc;
-  width: 25%;
-}
-.me-row {
-  border: 1px solid #cccccccc;
-  width: 25%;
-}
-.me-table {
-  color: #61dafb;
+  font-size: 16px;
+  color: white; /* Makes the description text stand out */
 }
 .topbar {
   position: inherit;
@@ -47,124 +40,18 @@ p {
   flex-direction: row;
   height: 10%;
 }
-.container {
-  color: #cccccccc;
-  background-color: rgb(20, 56, 97);
-  font-size: 1.0rem;
-  margin: 50px auto 50px auto;
-  margin-bottom: 15%;
-}
-.titles th {
-  border: 1px solid #cccccccc;
-  width: auto;
-}
 .center {
   align-items: center;
 }
-.start {
-  margin: 10px;
-}
-.centersocial {
-  align-items: center;
-  margin-bottom: 40%;
-}
-.left{
-  align-items: flex-start;
-  right:100;
-}
-.logo {
-  height: 13vmin;
-  width:fit-content;
-  position: relative;
-  top: 2px;
-  left: 1px;
-  flex-direction: row;
-  margin: auto;
-  align-items: left;
-}
-.socials {
-  justify-content: center;
-}
-.right {
-  position: relative;
-  margin: 0;
-  top:0;
-  right: 0;
-  width: 300px;
-}
-.lefty {
-  text-align: left;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn {
+  background-color: #007bff; /* Button color */
   color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@media (max-width: 768px) {
-  /* Media query for smaller screens */
-  p {
-    font-size: 1rem;
-    padding: 0 20px;
-  }
-}
-@media (max-width: 768px) {
-  /* Styles for tablets */
-  .content-section {
-    width: 90%;
-  }
-}
-
-@media (max-width: 480px) {
-  /* Styles for smartphones */
-  .content-section {
-    width: 95%;
-  }
-}
-/* Add more media queries for different screen sizes */
-@media (max-width: 480px) {
-  /* Styles for small screens */
-}
-.title {
-  font-family: 'sans-serif';
-}
-@media (max-width: 768px) {
-  /* Styles for tablets and mobiles */
-  .table {
-    width: 100%; /* Ensure table fills the width on mobile */
-  }
-  .mobile-hide {
-    display: none; /* Hide specific columns on mobile */
-  }
-  .me-row td {
-    font-size: 0.8rem; /* Adjust font size for smaller screens */
-  }
-}
-@media (max-width: 768px) {
-  /* Styles for tablets and mobiles */
-  .video-gallery {
-    display: grid; /* Example grid layout */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 10px;
-  }
-  .Iframe {
-    height: 180px; /* Adjust height for mobile */
-  }
+.btn:hover {
+  background-color: #0056b3; /* Darkens the button on hover */
 }

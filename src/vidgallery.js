@@ -27,6 +27,8 @@ const VidGallery = () => {
 
   return (
     <div className="video-gallery">
+              <h1 style={{ textAlign: 'center', flex: 1 }}>Applied Experience</h1>
+
       {uniqueVideos.slice(0, initialVideosToShow).map((videoUrl, index) => (
         <Iframe
           key={index}
